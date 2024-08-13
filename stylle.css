@@ -1,0 +1,25 @@
+body {
+	background-color:powderblue;
+}
+h1 {
+	color:blue;
+}
+p {
+	background-image: url();
+	color:red;
+	text-align: colapse;
+}
+table tr, td {
+	
+}
+	background-color:#A020F0;
+}
+grid-container {
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+}
+.note{
+fonte-size:220%;
+color:green;
+}
+	
