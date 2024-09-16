@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<script>
+    function calcularIdade(){
+        const anoNascimento = document.getElementById('anoNascimento').value;
+        const anoAtual = new Date().getFullYear();
+        const idade = anoAtual - anoNascimento;
+        document.getElementById('resultado').innerText = "Você tem " + idade +  " Anos.";
+    }
+    </script>
+
+    </head>
+    <body> 
+        <h1>Javascript</h1>
+        <!--Cria buton e executa a soma-->
+        <button type="button" onclick="document.white(5+6)">Executar</button>
+        <!--Criar buton imprimir-->
+        <button onclick="window.print.print()">Imprimir</button>
+        <p id="demo1"></p>
+        <script>
+        const pi = 3.14;
+        let pessoa = "Maria Luiza";  
+        let responde = "Sou eu";
+
+        document.getElementById("demo1").innerHTML = pi  + "<br>" + pessoa +"<br>" + responde;
+         </script>
+
+<!--
+func
+
+<script>
+
+    let a, b, c, d;
+    a=5;
+    b=10;
+    c=20;
+    d=a+b+c;
+    document.getElementById("demo1").innerHTML = d;
+    </script>
+-->
+
+    <!--alert pop ups
+    <script>
+        document.white(5+6);
+    </script>
+    
+
+        window.alert(5+6);
+   </script>
+   
+-->
+
+    <br>
+    <h1>Calcular idade</h1>
+    <label for ="anoNascimento">Ano Nascimento:</label>
+    <input type="number" id="anoNascimento" name="anoNascimento"></input>
+    <button onclick="calcularIdade()">Calcular Idade</button>
+    <p id ="resultado"></p>
+</body>
+</html>
